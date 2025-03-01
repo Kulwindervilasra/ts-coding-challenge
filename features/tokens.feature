@@ -21,7 +21,6 @@ Feature: Token Service Use Cases
     And The token has 2 decimals
     And The token is owned by the account
     And An attempt to mint tokens fails
-
   Scenario: Transfer tokens between 2 accounts
     Given A first hedera account with more than 10 hbar
     And A second Hedera account
